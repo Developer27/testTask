@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Task</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header-v1">
+      <div class="header__first-row">
+        <img src="https://fr.shopping.rakuten.com/visuels/0_content_square/autres/rakuten-logo6.svg" alt="">
+        <div class="dropDown">
+          <svg class="dropDown-icon" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path
+              d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+          </svg>
+        </div>
+      
+        <div class="search">
+          <input class="search-input" type="text" placeholder="Que cherchez-vous ?">
+          <button class="search-btn">
+            <svg class="search-btn-icon" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512">
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+          </button>
+        </div>
+        <div class="sales-block">
+          <img src="https://fr.shopping.rakuten.com/visuels/2021-05-31_10-millions-de-membres_75/2024-11_MERCH_ONGLET_blackweek-generique_175x47-2.svg" alt="">
+        </div>
+      </div>
+
+      <div class="header__second-row-desktop">
+        <div class="header__second-row__item " id="menu-item">
+          <div class="burger-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <p id="burger-menu-main-text">Parcourir les catégories</p>
+          <p id="burger-menu-second-text">Fermer</p>
+          
+        </div>
+        <div class="header__second-row__item mettre-dropDown"> 
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M3 23.344C3 11.556 12.556 2 24.344 2 36.133 2 45.69 11.556 45.69 23.344c-.01 11.784-9.56 21.334-21.345 21.345C12.556 44.689 3 35.133 3 23.344zM24.344 4.958a18.416 18.416 0 1018.417 18.386C42.734 13.19 34.5 4.968 24.344 4.958z">
+            </path>
+            
+            <path
+              d="M17.788 20.15c.809-4.22 3.658-7.059 7.158-7.059a6.369 6.369 0 015.659 3.254l-2.297 2.248a3.944 3.944 0 00-3.342-2.07 3.224 3.224 0 00-2.81 1.557 4.703 4.703 0 00-.73 2.07h7.079l-.483 1.972h-7.01a6.23 6.23 0 00-.069.858c-.01.17-.01.342 0 .512h6.744l-.474 2.17H21.23c.059.736.274 1.452.631 2.1a4.013 4.013 0 003.421 1.971 3.569 3.569 0 002.86-1.489l1.97 2.662a6.901 6.901 0 01-10.745-.73 10.391 10.391 0 01-1.627-4.515h-1.666l.483-2.1h.986a5.511 5.511 0 010-.562 5.915 5.915 0 010-.808h-1.47l.484-1.972 1.232-.069z">
+            </path>
+          </svg> 
+          <p>Mettre en vente</p>
+          <div class="drop-mettre">
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Vendre un produit en tant que particulier</p>
+              <p class="drop-mettre__item-second-text">Je dépose une annonce gratuitement</p>
+            </div>
+            <div class="drop-mettre__item">
+              <p class="drop-mettre__item-first-text">Astuces vendeurs particuliers</p>
+            
+            </div>
+              <div class="separator"></div>
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Je suis un commerçant</p>
+              <p class="drop-mettre__item-second-text">J'ouvre un e-shop</p>
+            </div>
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Conseils pour les commerçants</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__second-row__item">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M23.5 5.75c-9.792 0-17.75 6.583-17.75 14.67 0 4.464 2.43 8.636 6.675 11.441l.614.404v6.647l6.335-4.218.541.092c1.185.201 2.384.302 3.585.303 9.755 0 17.75-6.583 17.75-14.67 0-8.086-7.995-14.669-17.75-14.669zm-1.485 13.826c2.704-.458 4.217-1.485 4.217-2.888 0-1.22-.963-2.017-2.384-2.017a4.74 4.74 0 00-3.502 1.44L18.1 13.726a8.306 8.306 0 015.73-2.274c3.484 0 6.07 2.246 6.07 5.272 0 2.31-1.33 3.85-4.447 5.06v2.522h-3.438v-4.731zm0 10.287v-3.43h3.438v3.439l-3.438-.01zm-11.68 14.192V33.732C5.65 30.412 3 25.6 3 20.419 3 10.811 12.168 3 23.5 3S44 10.811 44 20.42c0 9.608-9.168 17.419-20.5 17.419a24.36 24.36 0 01-3.502-.257l-9.663 6.473z">
+            </path>
+          </svg>
+        
+          <p>Aide</p>
+        </div>
+        <div class="header__second-row__item">
+          <img src="https://images.fr.shopping.rakuten.com/visuels/Club-Rakuten/icon/club-rd1.svg" alt="">
+        </div>
+        <div class="header__second-row__item " id="favoris-dropDown">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512">
+            <path
+              d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+          </svg>
+        
+          <p>Mes favoris</p>
+          <div class="drop-mettre" id="drop-favoris">
+            <div class="drop-favoris__item">
+              <p class="drop-first-text">Voir ma liste de favoris</p>
+            </div>
+            <div class="drop-favoris__item">
+              <p class="drop-first-text">Créer une alerte prix (souhait)</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__second-row__item">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M23.756 27.401c-6.3 0-11.409-5.238-11.409-11.7C12.347 9.239 17.455 4 23.756 4c6.3 0 11.409 5.239 11.409 11.7 0 6.463-5.108 11.701-11.409 11.701zm0-2.799c4.793 0 8.68-3.985 8.68-8.901s-3.887-8.902-8.68-8.902c-4.794 0-8.68 3.986-8.68 8.902 0 4.916 3.886 8.901 8.68 8.901zm6.835 5.61l.577-.3.592.269c5.61 2.549 9.322 6.46 10.772 11.932L43 43.879H5.024l.454-1.758c1.414-5.473 5.12-9.39 10.748-11.94l.591-.269.577.3a14.287 14.287 0 0013.197 0zm-13.829 2.794c-3.956 1.916-6.67 4.562-8.072 8.074h30.62c-1.424-3.514-4.142-6.16-8.088-8.074a16.948 16.948 0 01-14.46 0z">
+            </path>
+          </svg>
+          <p>Se connecter</p></div>
+        <div class="header__second-row__item">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M19.468 40.537c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756s-2.717 1.234-2.717 2.756c0 1.523 1.216 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zm17.249-2.833c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756S34 36.258 34 37.78c0 1.523 1.217 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zM9.15 13.297L6.963 6.832H2.396C1.625 6.832 1 6.198 1 5.416 1 4.634 1.625 4 2.396 4h5.563c.596 0 1.126.384 1.32.956l2.512 7.421.633 1.87-1.95.006a1.397 1.397 0 01-1.312-.925 1.53 1.53 0 01-.086-.487 1.406 1.406 0 011.391-1.42l34.6-.095c.935-.002 1.608.91 1.343 1.818l-5.154 17.674a1.398 1.398 0 01-1.339 1.014h-23.5a1.397 1.397 0 01-1.32-.956L9.15 13.297zM17.413 29h21.462l4.327-14.836-30.778.084L17.413 29zm.955-3.136a.991.991 0 01-.984-.998c0-.552.44-1 .983-1l19.282-.006c.543 0 .984.446.985.998 0 .551-.44.999-.984.999l-19.282.007z">
+            </path>
+          </svg>
+          <p>Panier</p></div>
+      </div>
+
+      <div class="header__second-row-mobile">
+        <div class="header__second-row__item " id="menu-item">
+          <div class="burger-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <p id="burger-menu-main-text">Menu</p>
+          <p id="burger-menu-second-text">Fermer</p>
+
+        </div>
+        <div class="header__second-row__item mettre-dropDown">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M3 23.344C3 11.556 12.556 2 24.344 2 36.133 2 45.69 11.556 45.69 23.344c-.01 11.784-9.56 21.334-21.345 21.345C12.556 44.689 3 35.133 3 23.344zM24.344 4.958a18.416 18.416 0 1018.417 18.386C42.734 13.19 34.5 4.968 24.344 4.958z">
+            </path>
+
+            <path
+              d="M17.788 20.15c.809-4.22 3.658-7.059 7.158-7.059a6.369 6.369 0 015.659 3.254l-2.297 2.248a3.944 3.944 0 00-3.342-2.07 3.224 3.224 0 00-2.81 1.557 4.703 4.703 0 00-.73 2.07h7.079l-.483 1.972h-7.01a6.23 6.23 0 00-.069.858c-.01.17-.01.342 0 .512h6.744l-.474 2.17H21.23c.059.736.274 1.452.631 2.1a4.013 4.013 0 003.421 1.971 3.569 3.569 0 002.86-1.489l1.97 2.662a6.901 6.901 0 01-10.745-.73 10.391 10.391 0 01-1.627-4.515h-1.666l.483-2.1h.986a5.511 5.511 0 010-.562 5.915 5.915 0 010-.808h-1.47l.484-1.972 1.232-.069z">
+            </path>
+          </svg>
+          <p>Vendre</p>
+          <div class="drop-mettre">
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Vendre un produit en tant que particulier</p>
+              <p class="drop-mettre__item-second-text">Je dépose une annonce gratuitement</p>
+            </div>
+            <div class="drop-mettre__item">
+              <p class="drop-mettre__item-first-text">Astuces vendeurs particuliers</p>
+
+            </div>
+            <div class="separator"></div>
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Je suis un commerçant</p>
+              <p class="drop-mettre__item-second-text">J'ouvre un e-shop</p>
+            </div>
+            <div class="drop-mettre__item">
+              <p class="drop-first-text">Conseils pour les commerçants</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__second-row__item " id="favoris-dropDown">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+          </svg>
+
+          <p>Favoris</p>
+          <div class="drop-mettre" id="drop-favoris">
+            <div class="drop-favoris__item">
+              <p class="drop-first-text">Voir ma liste de favoris</p>
+            </div>
+            <div class="drop-favoris__item">
+              <p class="drop-first-text">Créer une alerte prix (souhait)</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__second-row__item">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M23.756 27.401c-6.3 0-11.409-5.238-11.409-11.7C12.347 9.239 17.455 4 23.756 4c6.3 0 11.409 5.239 11.409 11.7 0 6.463-5.108 11.701-11.409 11.701zm0-2.799c4.793 0 8.68-3.985 8.68-8.901s-3.887-8.902-8.68-8.902c-4.794 0-8.68 3.986-8.68 8.902 0 4.916 3.886 8.901 8.68 8.901zm6.835 5.61l.577-.3.592.269c5.61 2.549 9.322 6.46 10.772 11.932L43 43.879H5.024l.454-1.758c1.414-5.473 5.12-9.39 10.748-11.94l.591-.269.577.3a14.287 14.287 0 0013.197 0zm-13.829 2.794c-3.956 1.916-6.67 4.562-8.072 8.074h30.62c-1.424-3.514-4.142-6.16-8.088-8.074a16.948 16.948 0 01-14.46 0z">
+            </path>
+          </svg>
+          <p>Compte</p>
+        </div>
+        <div class="header__second-row__item">
+          <svg fill="#828282" viewBox="0 0 48 48">
+            <path
+              d="M19.468 40.537c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756s-2.717 1.234-2.717 2.756c0 1.523 1.216 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zm17.249-2.833c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756S34 36.258 34 37.78c0 1.523 1.217 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zM9.15 13.297L6.963 6.832H2.396C1.625 6.832 1 6.198 1 5.416 1 4.634 1.625 4 2.396 4h5.563c.596 0 1.126.384 1.32.956l2.512 7.421.633 1.87-1.95.006a1.397 1.397 0 01-1.312-.925 1.53 1.53 0 01-.086-.487 1.406 1.406 0 011.391-1.42l34.6-.095c.935-.002 1.608.91 1.343 1.818l-5.154 17.674a1.398 1.398 0 01-1.339 1.014h-23.5a1.397 1.397 0 01-1.32-.956L9.15 13.297zM17.413 29h21.462l4.327-14.836-30.778.084L17.413 29zm.955-3.136a.991.991 0 01-.984-.998c0-.552.44-1 .983-1l19.282-.006c.543 0 .984.446.985.998 0 .551-.44.999-.984.999l-19.282.007z">
+            </path>
+          </svg>
+          <p>Panier</p>
+        </div>
+      </div>
+    </header>
+
+    <header class="header-v2 ">
+      <div class="header-v2-first-row">
+        <div class="header-v2-first-row__left">
+            <img src="https://www.next.ie/static-content/icons/header/next/v3/default/new-next-gold-logo.svg" alt="">
+            <div class="search">
+              <input type="text" placeholder="Search product or brand">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path
+                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+              </svg>
+            </div>
+        </div>
+        <div class="header-v2-first-row__right">
+          <img class="search-icon-mobile" src="https://www.next.ie/static-content/icons/header/next/v3/default/search.svg" alt="">
+          <p>My Account</p>
+          <img src="https://www.next.ie/static-content/icons/header/next/v3/default/next_my-account_desktop.svg" alt="">
+          <div class="shopping-cart">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#fff">
+              <path
+                d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+            </svg>
+            <span class="shopping-count">0</span>
+          </div>
+          <div class="checkout">CHECKOUT</div>
+          <img src="https://www.next.ie/static-content/icons/shared/countryflags/ie.png" class="flag-icon" alt="">
+        </div>
+      
+      </div>
+      <div class="header-v2-second-row">
+        <div class="header-v2-second-row__item">CHRISTMAS</div>
+        <div class="header-v2-second-row__item">WOMEN</div>
+        <div class="header-v2-second-row__item">MEN'S</div>
+        <div class="header-v2-second-row__item">GIRLS</div>
+        <div class="header-v2-second-row__item">BOYS</div>
+        <div class="header-v2-second-row__item">BABY</div>
+        <div class="header-v2-second-row__item">SHOES</div>
+        <div class="header-v2-second-row__item">HOME</div>
+        <div class="header-v2-second-row__item">BRANDS</div>
+        <div class="header-v2-second-row__item">CLEARENCE</div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="main-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam molestias nesciunt earum magni explicabo maxime
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        beatae consectetur nam cum minima veniam enim, ipsam delectus obcaecati modi vel accusamus quos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo aspernatur unde inventore consequuntur, possimus dolor, numquam recusandae, iusto vitae culpa provident dicta. Harum molestiae, alias ratione dignissimos ipsa nobis.
+        Odio ab a blanditiis illum aliquid inventore voluptatem quaerat consequuntur, illo alias expedita in totam quia laboriosam ipsam non ea ex iusto delectus soluta? Sapiente earum iure atque sint corporis.
+        Aperiam, ipsa tenetur quo enim ab, soluta, perferendis ipsum laborum unde autem quod dolorum reiciendis eius reprehenderit placeat! Voluptas alias aut aliquid consequuntur nobis eius totam numquam sapiente esse eos.
+        Nesciunt minus quas pariatur, nulla accusantium beatae quo distinctio, et non esse eligendi soluta quis quod voluptates quos! Porro numquam velit fugiat, veritatis voluptatum eius ea reiciendis consectetur quisquam perferendis.
+        Perspiciatis repellat neque necessitatibus eos quia non voluptatibus laborum eligendi enim id ab voluptas adipisci maxime iste omnis dolorem pariatur, nihil laboriosam molestiae atque saepe tenetur! Reiciendis vitae voluptate sit.
+        Necessitatibus architecto placeat, dolorum, animi, quisquam voluptatum repellendus odio qui voluptas tempora ipsum quam deserunt aut quod minus beatae omnis vitae eligendi quis unde aperiam distinctio. Quibusdam, voluptates ex! Labore.
+        Error amet maxime iste a, necessitatibus voluptatem nam tempora possimus fugiat quas nesciunt tempore quae dignissimos corporis repellat ad voluptate illum delectus rem mollitia? Eligendi repellendus fuga totam molestiae cum?
+        Suscipit voluptate vero laborum possimus veniam quos quidem, ducimus excepturi nostrum corrupti voluptatem repellendus nobis necessitatibus fuga magni! Labore, aspernatur. Vero, numquam deleniti sequi similique rem omnis quas voluptatum aspernatur.
+        Necessitatibus aperiam tenetur iusto maxime ratione esse mollitia pariatur velit, quidem quibusdam. Mollitia aspernatur ipsum fuga maxime! Maxime inventore consequatur quam dolor facilis nulla, doloremque nesciunt sequi. Praesentium, sed iusto.
+        Labore quisquam mollitia aperiam nemo maxime? Repellat saepe nostrum distinctio, doloremque nisi sit rem quia mollitia pariatur! Ex ipsam quibusdam ducimus officia consectetur laboriosam qui, sunt dolorem delectus eaque provident.
+        Quis sunt cupiditate neque, eos ut aspernatur sapiente sequi aperiam, modi eveniet culpa cumque. Modi quas quidem odio error ducimus velit temporibus eos consectetur laborum, sequi animi, ipsum fugit illo?
+        Provident sint error corporis repellendus rem commodi? A accusantium delectus fugiat enim ex temporibus, quisquam odit quod. Quibusdam, natus. Velit tempora repellendus delectus? In consequatur accusantium commodi quae, aut assumenda.
+        Doloribus itaque alias porro? Neque cumque, dolore non deleniti, ipsam ullam est magnam quae necessitatibus doloremque minima excepturi iusto debitis totam consequatur beatae voluptatibus sapiente facere libero dignissimos commodi repellendus.
+        Similique et dolores quibusdam dolorum sunt eligendi consectetur fuga quas maxime quaerat atque laboriosam excepturi aliquam laborum deserunt, vero perspiciatis, autem nisi odit! Repellat sequi exercitationem culpa neque tempora. Quos!
+        Consequatur, earum vitae. Necessitatibus hic laborum mollitia numquam reprehenderit, atque optio quam eligendi commodi dolor illum expedita magni consequuntur. Quis doloremque neque ipsa? Saepe sit eum deleniti quaerat dolores nulla?
+        Atque voluptas facere nam tenetur impedit officia, facilis est labore inventore, eligendi optio, error quisquam quia animi maxime? Facilis quibusdam nemo laudantium quaerat vero non? Unde possimus incidunt delectus atque!
+        Voluptatibus odio impedit magni dolores nemo? Tempora veritatis voluptas vero minus libero voluptates debitis praesentium aliquid nesciunt nostrum eius in, perspiciatis placeat quia est amet odit laboriosam ut, delectus assumenda.
+        Reiciendis quam doloremque vero aut dolores, veniam in placeat recusandae quae, soluta eveniet debitis maiores perspiciatis eos quo cupiditate, facilis nihil quia iste incidunt neque dolorem amet temporibus? Dolore, nihil.
+        Enim eaque totam quam quae ab vero voluptatum dolorem nostrum aperiam delectus corporis, fugit consequatur tenetur, accusantium impedit cupiditate! Vero neque soluta nobis quo laborum veniam adipisci, unde officia officiis.
+        Dignissimos, tenetur saepe cumque rerum accusantium ipsam, quam commodi quae iusto est eius at earum? Debitis dignissimos sint repellendus vitae delectus recusandae unde temporibus est labore animi, quia molestias molestiae!
+        Fugit, repellat numquam deserunt velit aliquam aspernatur, temporibus nihil voluptas ea aut tempore in accusantium facilis quo reiciendis quas minus, dolor quibusdam? Natus voluptatem iste reprehenderit rerum dolores iure numquam!
+        Laboriosam amet excepturi porro iusto animi exercitationem expedita nulla ut aperiam explicabo? Consequatur, soluta vitae quidem perferendis laborum rerum enim aliquid. Ipsum aut temporibus similique eaque quo non numquam nesciunt!
+        Ducimus tempore a molestiae, aut alias et aperiam non minima voluptatibus fuga eius nulla deleniti dolorem tempora doloribus voluptates laborum praesentium nemo cum quibusdam nihil ratione provident? At, beatae illum?
+        Ea sapiente eos deleniti! Illum recusandae quidem eos qui corporis labore vero distinctio iure ea? Ducimus, sed! Aliquid, aperiam autem quidem ratione veritatis adipisci natus ullam dicta, architecto tempore tenetur.
+        Voluptates, in id ad rem necessitatibus accusamus deserunt iste consequatur repellat odio autem dolorem vitae libero reprehenderit aliquam nostrum eos ea facilis dicta itaque pariatur facere amet explicabo. Alias, ut?
+        Animi obcaecati neque maxime. Laudantium, magni nobis quas consequuntur corrupti reprehenderit aliquam iusto quam numquam aperiam temporibus nostrum illo eligendi. Earum, delectus? Saepe a sit repellat possimus minima, inventore corporis!
+        Aliquam, unde suscipit velit saepe ducimus ad? Culpa, debitis officiis quidem commodi iure ipsum sunt iste rerum soluta rem, doloremque ab quisquam ratione expedita reiciendis? Ipsam soluta ea sit eligendi.
+        Ex, accusamus excepturi aspernatur pariatur deserunt quod delectus eveniet? Assumenda id ipsum laboriosam repudiandae modi culpa minus consequuntur animi quas expedita? Fuga dolore delectus sit eaque excepturi iure laudantium quidem?
+        Omnis vel commodi dignissimos quaerat maxime at earum necessitatibus facere nisi, reiciendis sit ullam officia! Minima veritatis, repudiandae nostrum quam nam quidem omnis aliquid, fugiat, quae iste eligendi ea enim?
+        Inventore, enim nam impedit ipsa placeat dignissimos numquam ab iusto eos. Incidunt, et facilis, fugiat odit quisquam molestiae vel facere consectetur nam, est quis totam! Exercitationem delectus deserunt voluptatem doloribus.
+        Aperiam rem sapiente aut error doloribus modi tempore necessitatibus odit ex tempora quidem alias magni beatae numquam dicta ipsum nesciunt eum laudantium, illum, soluta perspiciatis consequuntur ea provident. Sint, obcaecati?
+        Nobis sunt saepe ad, exercitationem doloremque dolorum alias expedita harum illum quia incidunt ex obcaecati tempora distinctio non necessitatibus rerum minus iste vitae, reprehenderit ut quisquam nulla aliquam quasi. Veritatis?
+        Veritatis aspernatur eos ratione quae expedita minus, optio, ad veniam exercitationem dignissimos ipsam vel sequi itaque quos qui? Non sint deleniti explicabo ducimus eum! Ad quis quod doloremque quidem nihil?
+        Quod inventore consectetur adipisci voluptatum. A laboriosam perferendis dolorem, dolor molestias tempore in nostrum? Hic repudiandae laborum quisquam quis, atque dolor? Ut dolor officiis ea ipsum laudantium et ullam velit.
+        Quaerat minus cumque earum tenetur ipsum id, quia accusantium, voluptates reprehenderit omnis eius sed obcaecati cum laboriosam quasi vitae repudiandae assumenda ad, officiis aspernatur veritatis fugiat a! Exercitationem, cum illo!
+        Doloribus ratione atque reprehenderit. Hic beatae asperiores magnam. Distinctio, labore minima cupiditate nostrum officia dolorum amet laudantium in tenetur dolorem. Libero dolor possimus unde, sed facere aliquam vitae quidem dolorum!
+        Odit modi nobis sint mollitia similique adipisci, sunt asperiores praesentium at voluptatum neque quam voluptatibus ullam blanditiis atque ex. Omnis voluptatem perferendis, tempora fuga nesciunt officia quia aliquid iure est!
+        Animi, eum rem? Cumque, pariatur. Reiciendis sed perspiciatis cupiditate vitae ex. Nostrum officia suscipit eaque, incidunt reprehenderit fugiat rem nemo soluta. Alias laboriosam sapiente voluptas eveniet delectus praesentium, quos repellendus?
+        Ad quis obcaecati similique, assumenda ut voluptatibus, quae laboriosam veniam consequatur ab architecto quisquam facilis numquam. Molestias nulla suscipit aliquid expedita sapiente et pariatur veniam ipsam, nam architecto nihil at?
+        Dolor ipsam exercitationem neque vel esse eius nisi. Ad veritatis odio similique dolore reiciendis minima ut maiores ipsa quae eos vitae tempore, enim, exercitationem et? Doloremque voluptatibus et saepe odio.
+        Quasi optio fugit debitis alias quod. Mollitia blanditiis dolor, vel nihil quis voluptatem maiores odit accusamus, vero id adipisci magnam doloribus doloremque distinctio eius repellat officia quaerat nisi animi esse!
+        Quia perferendis accusantium dicta accusamus natus tempora quas assumenda distinctio architecto quam rerum quae rem incidunt commodi dolorum, consectetur culpa dolore quod, blanditiis veritatis ea cupiditate ipsam. Nobis, porro itaque.
+        Vero repellat, impedit earum repudiandae nobis accusantium dolore dolorem soluta itaque repellendus cumque laudantium commodi quasi illum deleniti excepturi, nisi blanditiis libero, quibusdam similique sunt. Delectus, cum? Eum, nam voluptate.
+        Odit sapiente nemo rerum temporibus cupiditate possimus inventore, maiores distinctio et accusamus eligendi voluptates, pariatur eaque. Suscipit magni consequuntur necessitatibus quia ab voluptate itaque molestias eligendi! Tenetur, amet! Delectus, excepturi!
+        Exercitationem quibusdam, voluptatem dicta ex rerum dolor. Tempora, placeat suscipit rem exercitationem aut aperiam quaerat nobis architecto enim earum explicabo, assumenda, eligendi quae sed veniam pariatur totam unde aspernatur error?
+        Non perspiciatis similique earum aliquam quo molestiae saepe laboriosam odio sint quia accusamus, nam est aut, ipsam voluptates ipsa ducimus, expedita nulla minus corrupti libero dolores. Iusto soluta nesciunt error?
+        Repudiandae soluta aut deserunt eaque autem mollitia consequatur dolor, nobis expedita fuga sed voluptate dolores eos quam? Repellat eius autem debitis porro repudiandae facere architecto vitae consequuntur blanditiis delectus. Iure?
+        Quisquam quasi, officiis aspernatur distinctio deserunt et obcaecati itaque laboriosam tempora provident nam dolore aliquam amet laudantium inventore reiciendis quam fuga sed sequi hic doloribus. Hic maiores corporis cum repellat!
+        Distinctio, unde ducimus. Eum cupiditate alias minima consectetur modi doloribus numquam. Possimus sunt, velit tenetur quod omnis voluptate est provident quis fugit rem sint deserunt officiis! Impedit quos eaque qui!
+        Rem non, quos neque accusantium suscipit fugiat natus nihil rerum cumque dolorum animi nisi dolore aut voluptate vitae, ipsa exercitationem assumenda deserunt quia velit voluptatem atque cupiditate. Velit, temporibus? In.
+        Illum quis labore non maiores. Doloribus laborum vitae aliquid corporis optio vero veniam eveniet, minima, illum adipisci, ex quasi labore cumque reiciendis cum porro rem nisi nam error distinctio quae!
+        Id aperiam ipsa quam laboriosam reiciendis, consectetur molestias fugiat architecto sequi, distinctio numquam, inventore voluptatem impedit minus consequatur pariatur corporis! Aspernatur fugit assumenda quo, commodi sequi laborum facere magni ex!
+        Blanditiis facere voluptas eveniet animi ipsam necessitatibus, nisi hic id placeat saepe dolor quidem corporis, ipsum atque aperiam commodi illum aut eligendi odit. Libero, nihil vero accusantium quis itaque excepturi.
+        Facilis, necessitatibus ipsum maiores facere similique quisquam quaerat iure possimus nobis velit dolores a molestiae doloremque et, blanditiis beatae. Nesciunt assumenda numquam a nam error quasi iure tenetur officia voluptatibus?
+        Sequi, nobis! Voluptates similique deserunt laudantium? Repudiandae necessitatibus totam sit officiis voluptatum itaque aspernatur, ab sed delectus fugit eos magnam quia vel odit aliquam nostrum ipsa, molestiae quis, nemo minus!
+        Reiciendis cum ratione repellendus possimus aspernatur qui quibusdam cumque quo delectus quos esse, sint assumenda facere quae maxime ut totam eius, illo veritatis. Vel, assumenda sequi inventore quasi culpa alias!
+        Assumenda iure cum sint rerum. Vero consequuntur quia est tenetur culpa omnis molestias praesentium repellat molestiae ipsa facere tempora mollitia ut ratione excepturi, esse ullam voluptate veniam pariatur voluptatum et!
+        Sunt consequuntur culpa accusamus iusto dolore ab illum! Distinctio et corrupti ratione deleniti nam assumenda laboriosam doloremque odio consequuntur. Ut tempore itaque saepe unde. Officia ullam ducimus tempore vitae vero!
+        At magni repellat optio est aliquam aliquid veniam, iste magnam fugit sit consequuntur, sequi ullam nam perferendis! Placeat, numquam ipsa dolorum voluptatibus, molestias, architecto quod ducimus velit fuga veritatis omnis.
+        Vero, illo. Eaque sunt assumenda corrupti repellendus expedita magni harum dignissimos laboriosam aliquam nam iste sed totam explicabo, iusto alias, error molestiae! In dignissimos aliquam ratione velit, laboriosam exercitationem quidem.
+        Placeat vel nemo deleniti repudiandae assumenda, non quam hic commodi nihil dolor consequatur at sint, cupiditate porro molestias! Asperiores, labore nobis in dolorum quo reprehenderit maiores repellendus eligendi ut aliquam!
+        Neque iure aliquid cupiditate ut dolores autem nobis sequi dolore delectus quos temporibus quasi repellendus eligendi vel facilis, rem aliquam ipsum reprehenderit deleniti. Eveniet neque magni odio reiciendis sequi omnis.
+        Magni, optio. Consequatur quia quaerat quo incidunt quos deleniti similique dolorem perferendis, aspernatur vel debitis ipsa minus veniam magni aut culpa doloribus praesentium molestiae facilis omnis voluptate iure molestias odit.
+        Explicabo tenetur facilis deserunt ullam ratione, quisquam harum, assumenda culpa hic, enim mollitia officiis eos in minus dolorum ad numquam qui. Ea atque omnis veniam porro nulla odit libero maxime.
+        Magni aperiam at magnam illo velit perspiciatis pariatur omnis doloremque, necessitatibus soluta officiis rerum nostrum sint vel esse doloribus, alias animi ratione earum dignissimos expedita, excepturi illum vitae. Error, sunt.
+        Quaerat temporibus esse facere blanditiis eaque nihil nobis! Nostrum quibusdam molestias, quo doloremque, sit debitis omnis nobis, tempore unde quaerat repellat dolor optio in officia aliquid ad modi rem est!
+        Ad hic facilis ea distinctio accusantium numquam sequi quis natus, aspernatur cumque architecto enim soluta, magnam quaerat maiores excepturi amet officia. Officia ex non delectus nihil quibusdam! Laborum, vel nisi!
+        Inventore aliquid, ipsam error tenetur laudantium molestias, obcaecati veritatis nihil, atque dolores aut iste itaque eaque velit eligendi facilis architecto id! Voluptatem laboriosam reprehenderit consequuntur nostrum assumenda fuga nesciunt? Omnis.
+        Sapiente commodi illum asperiores ut soluta veritatis, aliquid velit dolorem dolores doloremque ipsa ex iure illo autem alias minima modi? Illo quasi eveniet dolor inventore vero, nisi non iure deserunt?
+        Ex magnam pariatur consequatur voluptatum reprehenderit dignissimos quia possimus, reiciendis consequuntur. Quia ad nihil voluptatem deleniti maiores, voluptate dolor, necessitatibus exercitationem numquam repellendus quos ipsum consectetur fugit libero neque voluptates!
+        Illum dolore in consequuntur ea ullam minus quibusdam error eius, quidem, iusto similique optio at illo sunt! Ex, minima? Ex voluptate facere non animi eos deleniti fuga provident at necessitatibus.
+        Voluptatibus deleniti dolor temporibus iure incidunt corrupti consequatur in maiores voluptatem iste sit accusantium velit ipsa culpa nemo minima veniam, et nam repudiandae earum esse praesentium sequi commodi nesciunt. Sapiente!
+        Consectetur aut necessitatibus quidem sunt quae molestiae omnis minus officia blanditiis ducimus? Odio amet veniam quae enim rerum deleniti omnis molestiae, at sapiente libero quidem ipsum illo obcaecati saepe debitis?
+        Deleniti ducimus maxime aspernatur vitae culpa totam? Veniam odit accusamus aliquid molestiae vel laudantium ipsum doloremque! Sed minima inventore dicta eligendi, neque illo at nisi. Cupiditate necessitatibus incidunt quaerat enim.
+        Quaerat at cumque totam repudiandae esse, praesentium unde! Minima dignissimos optio, adipisci perferendis, aliquid ex sapiente nam ab alias similique ratione commodi recusandae sint fuga qui laudantium debitis laborum ipsum.
+        Aliquam, placeat. Consequatur, quae labore fugiat eveniet minima porro minus ratione velit error architecto eos laborum, ipsum est fugit. Doloribus, aperiam nostrum vel rerum delectus autem dolor hic minus odio!
+        Omnis, provident eius odit commodi repudiandae velit exercitationem alias, quisquam rerum placeat reiciendis praesentium! Laboriosam odio blanditiis quisquam, neque repellendus non eveniet deleniti et magni labore minima? Ducimus, inventore odit.
+        Vero illo itaque ab ut ex dicta iure eaque pariatur perferendis hic perspiciatis enim, ratione eius quod optio reprehenderit, debitis libero non assumenda aut. Sint laudantium commodi facilis nesciunt eaque.
+        Incidunt, cum? Repellendus fugit nemo neque ullam. Odio quod ratione earum alias nihil. Itaque sapiente mollitia dolorum voluptates dolore? Iure modi sunt placeat perferendis dolorem architecto in voluptates ducimus nobis.
+        Libero, ratione accusantium! Consectetur neque ipsam iure rerum maiores nihil, quae quaerat laboriosam illo assumenda, beatae ad reprehenderit perferendis ratione fuga quidem porro officia, iste numquam et earum explicabo nemo.
+        Laborum nisi nobis nam doloremque, ducimus dicta perferendis facere praesentium molestias eum nulla modi sint optio ut incidunt eius ullam obcaecati distinctio aspernatur consectetur rerum, quisquam aut. Earum, provident voluptatum.
+        Sit rem nostrum nemo voluptatum asperiores accusantium vel ut, quidem beatae reiciendis et mollitia necessitatibus consectetur dolorem unde laborum rerum. Consectetur corrupti dolorem reprehenderit asperiores inventore commodi quibusdam voluptate? Ratione!
+        Laborum quam molestias in dignissimos modi mollitia aspernatur deleniti doloremque, aliquam ipsam quas accusantium necessitatibus excepturi beatae alias provident nam sint nulla non reiciendis expedita voluptas reprehenderit facere. Praesentium, totam?
+        Mollitia asperiores deserunt nisi reiciendis? Saepe, dolores? Est vero voluptatibus sit, itaque dignissimos harum doloremque aspernatur qui error labore tenetur atque modi assumenda reprehenderit maxime quasi quos at, minus ratione!
+        Maiores aperiam, quo animi eaque recusandae aspernatur quos quidem sapiente magnam esse, ab dolorem libero, laudantium sed dicta commodi? Reiciendis eos quo a tempore maiores ex unde ratione quas dignissimos!
+        Possimus pariatur aperiam molestias dolore doloribus, incidunt ipsam itaque eius harum eveniet, dignissimos necessitatibus non culpa hic eos! Ea magni corporis velit quae quod qui quam! Dolor, minima labore! Distinctio!
+        Ipsa rerum quidem, ex itaque facere sit dolorem, explicabo impedit iste id optio ipsum, autem doloribus. Distinctio, placeat! Iure dolorum fuga excepturi obcaecati ut praesentium accusantium ipsam explicabo temporibus veritatis!
+        Accusantium cum porro ipsam illo reiciendis, perferendis minus molestias odit ducimus, voluptatum voluptatibus at soluta eveniet tempore tenetur repellendus deleniti molestiae et doloribus ut rem. Architecto dolores perspiciatis quidem repellendus?
+        Est nam quas, vitae minus non iure deserunt saepe autem suscipit? Eligendi qui blanditiis eum ipsam dignissimos odit perspiciatis fuga alias sint quisquam sed, tempore, unde voluptate quasi reprehenderit iste?
+        Pariatur aspernatur voluptatem quisquam reiciendis consequatur deleniti rem laboriosam. Veritatis voluptas officia, nulla voluptatem mollitia amet consequatur beatae ut obcaecati recusandae deleniti fugit, repellat magni tempora temporibus quae sit quasi.
+        Non voluptas facere sapiente sequi eligendi ipsa maiores ducimus labore id nobis, aperiam hic numquam corrupti perferendis? Laboriosam enim repellendus inventore fugit, quas, ut tenetur expedita id nam natus quisquam!
+        Quia pariatur assumenda reiciendis similique laboriosam odio sed asperiores in, vitae, ab ad incidunt obcaecati! Dolorum vero quis qui repudiandae vel culpa ab corporis ea quo error. Inventore, molestiae quos.
+        Quaerat praesentium architecto repellat veritatis ut neque pariatur nobis. Quibusdam molestiae maxime ratione natus reiciendis minus possimus vel porro modi? Odio, nesciunt. Autem nisi fugiat, sunt quidem corporis sint a.
+        Ratione error vel hic possimus nesciunt incidunt minima cum ad dolores in fugiat delectus dolore corporis officia, accusantium minus quasi similique optio itaque provident at eveniet laborum numquam fugit. Atque!
+        Cum, modi beatae voluptas omnis facilis vero voluptatibus explicabo aliquam minus fugiat dolorum excepturi iusto amet quae unde necessitatibus commodi nam, blanditiis delectus repudiandae quod exercitationem voluptatum. Deserunt, quis repellendus.
+        Qui assumenda ducimus deserunt? Qui possimus consectetur culpa, ab reiciendis ipsa saepe dolores repudiandae, inventore, iusto pariatur eaque ad delectus maxime ipsam vel corporis neque totam ullam natus sapiente. Quisquam.
+        Aut placeat ipsa hic quibusdam repellat, eum nihil possimus ab deleniti nobis facilis magni dolores atque velit natus sunt voluptatibus, architecto numquam perspiciatis illo est exercitationem dolore officiis! Provident, fugiat?
+        Magni neque nesciunt dolor minus ex dolore ipsam obcaecati quia perspiciatis assumenda. Commodi, provident ipsa id ea debitis quis impedit. Quaerat consequuntur sit rerum aliquid amet illum dolore labore nihil?
+        Aperiam unde molestiae quia maxime aut repellendus quisquam numquam quo cumque nulla dolorem laudantium magni et obcaecati quas asperiores, in voluptatum delectus dicta tempore sint dignissimos aliquam? Commodi, repellat atque.
+        Est fugiat suscipit sunt quae quia in ratione voluptatem labore maxime. Amet, est consequatur dicta iure corporis expedita enim, aperiam ipsa suscipit, reiciendis in reprehenderit dolores facilis tempore error ab?
+        <p class="timer" id="countdown">1:30</p>
+      </div>
+    </main>
+    <footer class="footer-v1">
+      <a href="#" class="button-up">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+        </svg>
+      </a>
+      <div class="footer_icons">
+        <div class="footer_icons-left">
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/linkedinIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/facebookIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/twitterIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/instagramIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/youtubeIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/pinterestIcon.svg" alt="">
+          </div>
+        </div>
+        <div class="footer_icons-right">
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/visaIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/mastercardIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/klarna.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/paypalIcon.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/floaLogo.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/americanExpress.svg" alt="">
+          </div>
+        </div>
+       
+      </div>
+      <div class="footer__platforms-section">
+        <a>Avec l'appli Rakuten, bénéficiez de 5% remboursés en Rakuten Points sur tous vos achats !</a>
+        <div class="platforms-wrapper"> 
+          <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/appStoreIcon.svg" alt="">
+          <img src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/playStoreIcon.svg" alt="">
+        </div>
+      
+      </div>
+      <div class="footer__rakuten-services">
+        <img class="footer__rakuten-services__logo"
+          src="https://fr.shopping.rakuten.com/visuels/0_TECH/shared-svg/RakutenLogos.svg" alt="">
+        <div class="footer__rakuten-services-wrapper">
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">Rakuten Kobo</a>
+          </div>
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">Rakuten TV</a>
+          </div>
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">Rakuten Viber</a>
+          </div>
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">Rakuten Viki</a>
+          </div>
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">Plus de services</a>
+          </div>
+          <div class="footer-rakuten-services-items-wrapper__item">
+            <a href="">À propos de Rakuten</a>
+          </div>
+        </div>
+        <select name="langs" id="langs-select" class="langs-select">
+          <option value="">France</option>
+          <option value="Allemagne">Allemagne</option>
+          <option value="Bresil">Bresil</option>
+          <option value="Etas-Unis">Etas-Unis</option>
+          <option value="Japon">Japon</option>
+          <option value="Taiwan">Taiwan</option>
+        </select>
+      </div>
+      <p class="rakuten-website">Rakuten.com</p>
+      <p class="copyright">
+        © Rakuten France 2000 - 2024
+      </p>
+      <div class="footer__fridays">
+        <a href="" class="footer__fridays-item">Offres Black Friday</a>
+        <a href="" class="footer__fridays-item">Eden Park Black Friday</a>
+        <a href="" class="footer__fridays-item">Basket Homme Black Friday</a>
+        <a href="" class="footer__fridays-item">Calvin Klein Black Friday</a>
+        <a href="" class="footer__fridays-item">Fauteuil Black Friday</a>
+        <a href="" class="footer__fridats-item">Manteau Homme Black Friday</a>
+        <a href="" class="footer__fridays-item">Sergent Major Black Friday</a>
+        <a href="" class="footer__fridays-item">Lego Technic Black Friday</a>
+        <a href="" class="footer__fridays-item">Black Friday Livres</a>
+        <a href="" class="footer__fridays-item">Manette PS5 Black Friday</a>
+      </div>
+    </footer>
+
+    <footer class="footer-v2">
+      <a href="#" class="button-up">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+        </svg>
+      </a>
+      <div class="footer__media-section">
+        <p>Our Social Networks</p>
+        <div class="footer-icons">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-facebook.svg" alt="">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-x.svg" alt="">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-tiktok.svg" alt="">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-instagram.svg" alt="">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-pinterest.svg" alt="">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/socialmedia/social-youtube.svg" alt="">
+        </div>
+      </div>
+      <div class="footer-lower-wrapper">
+        <div class="account-section">
+          <img src="https://www.next.ie/static-content/icons/footer/next/v2/quicklinks/myaccount.svg" alt=""
+            class="account-avatar">
+          <div class="account-section-text">
+            <p>My Account</p>
+            <p>Sign-in to your account</p>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="footer-nav-desktop">
+          <div class="footer-nav-section">
+            <p>Help</p>
+            <a href="">Returns Information</a>
+            <a href="">Shipping Information</a>
+            <a href="">Contact Us</a>
+            <a href="">Product Recall</a>
+            <a href="">Find a Store</a>
+          </div>
+          <div class="footer-nav-section">
+            <p>Privacy & Legal</p>
+            <a href="">Privacy & Cookie Policy</a>
+            <a href="">Gender Pay Gap Report</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">MANUALLY MANAGE COOKIES</a>
+          </div>
+          <div class="footer-nav-section">
+            <p>Departments</p>
+            <a href="">Womens</a>
+            <a href="">Mens</a>
+            <a href="">Boys</a>
+            <a href="">Girls</a>
+            <a href="">Home</a>
+            <a href="">Baby</a>
+            <a href="">Brands</a>
+          </div>
+          <div class="footer-nav-section">
+            <p>Other Services</p>
+            <a href="">Media & Press</a>
+            <a href="">The Company</a>
+            <a href="">Careers@next</a>
+          </div>
+        </div>
+        <div class="footer-nav-mobile">
+          <div class="footer-nav-mobile-section">
+            <p>Help</p>
+            <div class="content">
+              <a href="">Returns Information</a>
+              <a href="">Shipping Information</a>
+              <a href="">Contact Us</a>
+              <a href="">Product Recall</a>
+              <a href="">Find a Store</a>
+            </div>
+          </div>
+          <div class="footer-nav-mobile-section">
+            <p>Privacy & Legal</p>
+            <div class="content">
+              <a href="">Privacy & Cookie Policy</a>
+              <a href="">Gender Pay Gap Report</a>
+              <a href="">Terms & Conditions</a>
+              <a href="">MANUALLY MANAGE COOKIES</a>
+            </div>
+          </div>
+          <div class="footer-nav-mobile-section">
+            <p>Departments</p>
+            <div class="content">
+              <a href="">Womens</a>
+              <a href="">Mens</a>
+              <a href="">Boys</a>
+              <a href="">Girls</a>
+              <a href="">Home</a>
+              <a href="">Baby</a>
+              <a href="">Brands</a>
+            </div>
+          </div>
+          <div class="footer-nav-mobile-section">
+              <p>Other Services</p>
+              <div class="content">
+                <a href="">Media & Press</a>
+                <a href="">The Company</a>
+                <a href="">Careers@next</a>
+              </div>
+          </div>
+        </div>
+      
+        <div class="copyright-section">
+          <a href="">View mobile site</a>
+          <p>© 2024 Next Retail Ltd. All rights reserved.</p>
+        </div>
+      </div>
+  
+    </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
+
